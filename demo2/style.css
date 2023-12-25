@@ -1,0 +1,25 @@
+.main_content{
+    width: 20%;
+    border-style: none;
+    border: 2px solid;
+}
+.main_content img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 19%;
+    
+}
+.main_content h1{
+    position: absolute;
+    left: 30px;
+    top: 45px;
+}
+.main_content p {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    font-size: 30px;
+}
+

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+div#layout {
+	border: 1px solid #a3a2a3;
+	margin: 20px auto;
+	width: 900px;
+	padding: 0 10px;
+}
+
+div#layout div#header{
+	padding: 10px;
+
+}
+
+div.hLeft{
+	float: left;
+}
+
+div.hRight{
+	float: right;
+}
+div#gNav{
+	clear: both;
+}
+
+div#layout div#header {
+	width: 880px;
+}
+
+div.hRight ul.hButton li{
+	display: inline;
+}
+div.hRight ul.hNav li{
+	display: inline;
+	border-right: 1px solid black;
+	padding: 0 10px	;
+}
+div.hRight ul.hNav li.last{
+	border-right: none;
+	padding-right: 0;
+}
+div.hRight ul.hButton {
+	margin-bottom: 37px;
+	text-align: right;
+}
+
+
+div.hRight ul.hButton{
+	text-align: right;
+}
+div#gNav {
+	clear: both;
+}
+div.hRight ul.hNav{
+	text-align: right;
+	padding-top: 5px;
+}
+
+div#gNav ul li {
+	border-right: 1px solid white;
+	display: inline;
+	padding: 0 10px;
+}
+div#gNav ul li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+div#gNav ul li a:hover{
+	color: yellow;
+}
+div#gNav ul {
+	border: 1px solid black;
+	padding: 12px 0;
+	height: 22px; 
+	background: url(../img/bg_gnav.gif)
+}
+
+div#content {
+	float: left;
+	width: 620px;
+	}
+div#sidebar {
+	float: right;
+	width: 240px;
+}
+
+div#footer {
+	clear: both;
+}
+
+div#content h2 {
+	border-bottom: 1px solid #666666;
+	font-size: 120%;
+	margin-bottom: 10px;
+}
+
+div#content div.newProduct p.image {
+	float: left;
+	width: 241px;
+}
+div#content div.newProduct div { 
+	float: right;
+	width: 350px;
+}
+div#content div.newProduct div h3 {
+	color: #5870e6;
+	margin-bottom: 10px;
+}
+
+div#content ul.thumbList {
+	clear: both;
+}
+div#pageBody {
+	padding: 10px 20px;
+}
